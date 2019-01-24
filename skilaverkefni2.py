@@ -20,6 +20,7 @@ def runa(m):
 
 #runa(6)
 
+
 # 5
 def þversumma(n):
     if n // 10 != 0:
@@ -29,4 +30,10 @@ def þversumma(n):
 
 #print("Svar þversumma:",þversumma(1209))
 
+
 # 6
+def samnefnari(n,m):
+    if n % m == 0:
+        return m
+    return samnefnari(m,n%m)
+#print("Svar samnefnari:",samnefnari(9,15))
