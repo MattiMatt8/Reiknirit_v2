@@ -1,5 +1,6 @@
 # Matthías Ólafur
 
+
 # 2´- Sauðakóðinn er í readme skjalinu
 #def tugaTvi(n):
 #    if n > 0:
@@ -44,4 +45,5 @@ def samnefnari(n,m):
     if n % m == 0:
         return m
     return samnefnari(m,n%m)
+
 #print("Svar samnefnari:",samnefnari(9,15))
