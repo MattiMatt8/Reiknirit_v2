@@ -1,5 +1,13 @@
 # Matthías Ólafur
 
+# 2´- Sauðakóðinn er í readme skjalinu
+#def tugaTvi(n):
+#    if n > 0:
+#        return tugaTvi(n//2) + str(n%2)
+#    return str(n%2)
+#
+#print("tuga í tví:",tugaTvi(6))
+
 
 # 3
 def summa(m):
