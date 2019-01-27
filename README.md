@@ -5,8 +5,11 @@
 
 #### 2.
 ##### Bý til fall sem tekur inn n sem er heiltala.
-##### If skylyrði ef n er stærra en 0 þá returnar það kalli í sig sjálft
-##### með n í kallinu sem n//2 sem er n/2 en sleppur afganginum þannig t.d. 5/2 þá væri það 2
-##### síðan leggur það kallið á fallinu við n%2 sem er modulus n/2 sem er afgangurinn sem er eftir af deilingunni n/2.
-##### Eftir það fer það úr if skilyrðinu og returnar þar strengi n%2 sama og
-##### var lagt við í fyrra returninu aðeins þar er það eitt og sér.
+##### If skilyrði ef n er stærra en 0 þá:
+
+- Returnar:
+        Kalli í sig sjálft (fallið) með n í kallinu sem n//2 sem er n/2 en sleppur afganginum þannig t.d. 5/2 væri jafnt og 2, síðan leggur það kallið af fallinu við n%2 sem streng (+ str(n%2)) sem er modulus n/2 sem er afgangurinn sem er eftir af deilingunni n/2 t.d. 5/2 væri þá afgangurinn 1.
+
+##### Eftir það fer það úr if skilyrðinu og: 
+- Returnar: 
+        n%2 sem strengi, sama og var lagt við í fyrra returninu aðeins þar er það eitt og sér ekkert kall í neitt fall í þetta skipti.
